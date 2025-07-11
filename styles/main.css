@@ -42,7 +42,7 @@ h1 {
 /* Banner section */
 .banner {
   min-height: 300px;
-  background-image: url("../assets/img/bg_compose_background.png");
+  background-image: url("/assets/img/bg_compose_background.png");
   background-position: center;
 
   position: relative;
