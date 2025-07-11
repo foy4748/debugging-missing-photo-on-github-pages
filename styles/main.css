@@ -8,6 +8,27 @@ img {
   width: 100%;
 }
 
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -16,4 +37,46 @@ img {
 
 .col {
   grid-column: span 4;
+}
+
+/* Banner section */
+.banner {
+  min-height: 300px;
+  background-image: url("../assets/img/bg_compose_background.png");
+  background-position: center;
+
+  position: relative;
+}
+
+.overlay {
+  background-color: #00000080;
+}
+
+.overlay,
+.banner-texts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-texts h1 {
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 3px 3px #211212;
+}
+
+.banner-btn {
+  background-color: #29bc29dc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+
+  margin-top: 20px;
 }
